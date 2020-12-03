@@ -1,0 +1,26 @@
+.form_container {
+  background: rgba(27, 27, 50, 0.8);
+  margin: 20%;
+  padding: 30px;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+.radio_buttons {
+  display: flex;
+  flex-direction: column;
+}
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+  }
+.block {
+  margin: 15px 15px;
+}
+#submit {
+    position: center;
+    margin: 20px;
+}

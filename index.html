@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class='title_container'>
+        <h1>
+          freeCodeCamp Survey Form
+        </h1>
+        <p><em>Thank you for taking the time to help us improve the platform</em></p>
+      </div>
+      <form>
+      <div>
+        <div class='form_container'>
+          <div class="name block">
+            <p>Name</p>
+            <input type="text" placeholder="enter your name">
+          </div>
+
+          <div class="email block">
+            <p>Email</p>
+            <input type="text" placeholder="enter your email">
+          </div>
+
+          <div class="email block">
+            <p>Age (optional)</p>
+            <input type="number" placeholder="age">
+          </div>
+
+          <div class="email block">
+            <p>Which option best describes your current role?</p>
+            <input list="roles" name="browser" id="browser" placeholder="Select current role">
+            <datalist id="roles">
+              <option value="Studante">
+              <option value="Full time job">
+              <option value="Full time learner">
+              <option value="Prefer not to say">
+              <option value="other">
+            </datalist>
+          </div>
+
+          <div class='block'>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <div class='radio_buttons'>
+              <div>
+                <input type="radio" id = "def">
+                <label for = "def">Definitely</label>
+              </div>
+              <div>
+                <input type="radio" id = "maybe">
+                <label for = "maybe">Maybe</label> 
+              </div>
+              <div>
+                <input type="radio" id = "not">
+                <label for = "not">Not sure</label>
+              </div>
+            </div>
+          </div>
+          <div class='block'>
+            <p>What is your favorite feature of CodeCamp?</p>
+            <input list="favorite" name="favorite" id="favorite" placeholder="Select an option">
+            <datalist id="favorite">
+              <option value="Challenges" >
+              <option value="Projects">
+              <option value="Community">
+              <option value="Open Source">
+            </datalist>
+          </div>
+          <div class='block'>
+            <p>What would you like to see improved? (Check all that apply)</p>    
+            <div class = "checkboxes">
+              <div>
+            <input type="checkbox" id = "front">
+            <label for = "front">Front-end Projects</label>
+          </div>
+        <div>
+            <input type="checkbox" id = "back">
+            <label for = "back">Back-end Projects</label>
+          </div>
+        <div>
+            <input type="checkbox" id = "chal">
+            <label for = "chal">Challenges</label>
+          </div>
+        <div>
+            <input type="checkbox" id = "vid">
+            <label for = "vid">Video</label>
+          </div>
+          </div>
+          </div>
+          <div class='block'>
+            <p>Any Comments or suggestions?</p>    
+            <input type="textarea" width="350px" >
+          </div>
+          <input type="submit" id = "submit>
+        </div>
+      </div>
+    </div>
+</form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>
